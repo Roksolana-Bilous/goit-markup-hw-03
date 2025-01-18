@@ -121,8 +121,6 @@ img {
 }
 .page-main {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -133,8 +131,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 478px;
-    height: 188px;
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -253,7 +249,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 48px 24px;
+    row-gap: 48px; 
+    column-gap: 24px;
   }
   .portfolio-item {
       background-color: #FFFFFF;
@@ -263,7 +260,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
   .portfolio-title {
     font-weight: 500;
