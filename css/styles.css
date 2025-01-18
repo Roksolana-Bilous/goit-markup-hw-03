@@ -22,6 +22,9 @@ ul,ol {
 a {
     text-decoration: none;
 }
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -244,6 +247,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
   }
   .portfolio-list {
     display: flex;
@@ -255,7 +259,12 @@ a {
       background-color: #FFFFFF;
       width: calc(100%-72px)/4;
      }
-
+.portfolio-one {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
   .portfolio-title {
     font-weight: 500;
     font-size: 20px;
